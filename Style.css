@@ -208,3 +208,29 @@ footer {
 .social-links a:hover {
    color: white;
 }
+.bar {
+  width: 100%;
+  background: #ddd;
+  height: 10px;
+  border-radius: 5px;
+}
+.html {
+  width: 80%;
+  height: 10px;
+  background: #4CAF50;
+}
+.profile-img {
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin: 20px auto;
+}
+@media (max-width: 768px) {
+ body {
+  text-align: center;
+}
+nav a {
+   display: block;
+   margin: 10px 0;
+}
+}
