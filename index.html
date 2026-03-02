@@ -28,8 +28,11 @@ initial-scale=1.0">
        improving my HTML, CSS,
        and JavaScript skills step by step.
     </p>
-    <button>
-  onclick="document.getElementByld('contact').scrolllntoView()">Hire Me</button>
+   <button>
+   onclick="document.getElementByld('contact').
+   scrollIntoView({behavior:'smooth'})">
+    Hire Me
+   </button>
      </div>
      <div class="hero-image">
         <img src="profile.png" alt="Usman">
@@ -90,13 +93,23 @@ development.</p>
         <button type="submit">Send Message</button>
      </form>
   </section>
-  <footer>
-     <p>&copy; 2026 Usman | All Rights Reserved</p>
-     <div class="social-links">
-        <a href="#">GitHub</a>
-        <a href="#">Linkedin</a>
-        <a href="#">Email</a>
-     </div>     
+  <footer style="text-align: center; padding:20px;
+  background: #f5f5f5; margin-top: 40px;">
+  <div class="footer-links">
+   <a href="https://github.com/yourusername"
+  target="_blank">GitHub</a> |
+     <a 
+href="https://www.linkedin.com/in/youruserna
+me/" target="_blank">LinkedIn</a> |
+   <a 
+href="mailto:yourgmail@gmail.com">Email</a>
+  </div>
+  <div style="margin-top: 15px;">
+   <button>Hire Me</button>
+  </div>
+  <p style="margin-top: 15px; font-size: 12px;">
+   &copy; 2026 Muhammad Usman. All rights reserved.
+  </p>
   </footer>
 <script src="script.js"></script>
 </body> 
@@ -105,5 +118,4 @@ development.</p>
 target="-blank">Visit</a>
 <a href="https://github.com/username"
 target="_blank">
-  Visit My GitHub
 </a>
